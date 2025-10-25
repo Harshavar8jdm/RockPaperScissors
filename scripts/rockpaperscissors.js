@@ -76,7 +76,7 @@ let compChoice = '';
                 score.wins = 0;
                 score.losses = 0;
                 score.ties = 0;
-                updatePickedElement();
+                updatePickedElement(playerMove, compChoice);
                 updateResultElement();
                 updateScoreElement(); 
                  
@@ -111,4 +111,5 @@ let compChoice = '';
                  else{
                     console.log('NaN');
                 }
+
             }
